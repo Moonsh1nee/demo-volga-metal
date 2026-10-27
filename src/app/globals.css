@@ -103,7 +103,7 @@
   .hero .btn.ln { color: #eceff1; }
   .page-hero { background-color: var(--gr); color: var(--gr-ink); background-image: linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px); background-size: 48px 48px; }
   .page-hero .w { padding-block: 56px 60px; }
-  .page-hero h1 { font-size: clamp(36px, 5vw, 64px); }
+  .page-hero h1 { font-size: clamp(30px, 5vw, 64px); overflow-wrap: break-word; }
   .page-hero .lead { font-size: 18px; opacity: 0.85; margin-top: 18px; max-width: 40em; }
   .crumbs { font: 500 12px var(--font-plex-mono); letter-spacing: 0.08em; text-transform: uppercase; opacity: 0.8; margin-bottom: 18px; }
   .crumbs a { color: inherit; }
